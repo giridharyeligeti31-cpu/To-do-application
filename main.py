@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from typing import List
 from pydantic import BaseModel
 
-from database import SessionLocal, engine, get_db
+from database import get_db
 import models
 
 # Create the FastAPI app
